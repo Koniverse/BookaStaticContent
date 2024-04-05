@@ -1,0 +1,21 @@
+{
+  "name": "booka-static-content",
+  "version": "1.0.0",
+  "description": "Static Content Of Booka",
+  "main": "index.js",
+  "type": "commonjs",
+  "repository": "https://github.com/Koniverse/BookaStaticContent.git",
+  "author": "AnhNT <anhntk54@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "install": "^0.13.0",
+    "node-fetch": "^3.3.2",
+    "npm": "^10.1.0"
+  },
+  "scripts": {
+    "update-data": "node scripts/fetch-data.mjs",
+    "generate-period-data": "node scripts/generate-period-time.mjs"
+  }
+}
